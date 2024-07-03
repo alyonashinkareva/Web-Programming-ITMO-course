@@ -1,0 +1,28 @@
+/* comment */
+.comment {
+    margin-top: 3rem;
+    border: 1px solid var(--caption-color);
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    line-height: 2.2rem;
+}
+.comment .user_name {
+    border-bottom: 1px solid var(--caption-color);
+    color: var(--caption-color);
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+
+.comment .text {
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+    white-space: pre-line;
+}
+
+.comment .time {
+    float: right;
+    font-size: 0.85rem;
+    line-height: 2rem;
+    padding-right: 0.5rem;
+}
